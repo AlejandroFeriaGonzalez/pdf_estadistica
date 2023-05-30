@@ -20,6 +20,7 @@ Una ves ejecute el codigo le aparecera un nuevo archivo llamada "Nueva diavositi
 
 
 =========
+
 Nota: Si el código no funciona posiblemente necesite instalar el modulo **PyPDF2**
 
     pip install PyPDF2
