@@ -5,7 +5,8 @@ Elimina las diavositivas innecesarias de los pdf de estadistica, Unal Medellin
 
   
 
-![Como usar el codigo](imagenes\tutorial.png)
+<image src="imagenes\tutorial.png">
+
 
   
 
@@ -15,7 +16,8 @@ Una ves ejecute el codigo le aparecera un nuevo archivo llamada "Nueva diavositi
 
   
 
-![Nuevo PDF](imagenes\tutorial.png)
+<image src="imagenes\nuevoPdf.png">
+
 
 =========
 Nota: Si el código no funciona posiblemente necesite instalar el modulo **PyPDF2**
