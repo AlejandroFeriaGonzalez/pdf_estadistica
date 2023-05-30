@@ -18,7 +18,7 @@ for i, page in enumerate(pdf_reader.pages):
     numPag = numeroPagina(page)
 
     #Si el indice de la siguiente pagina es diferente al actual, entonces es una diavositiva final
-    if (int(numPag) == int(numDiavositas)-1): break
+    if (int(numPag) == int(numDiavositas)): break
 
     if (numeroPagina(pdf_reader.pages[i+1]) != numPag):
         writer.add_page(page)
