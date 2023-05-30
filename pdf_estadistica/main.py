@@ -9,7 +9,7 @@ pdf_reader = PyPDF2.PdfReader('pdf_estadistica\diavositiva.pdf')
 patron_numDiavositiva = "(\d*)\s/\s(\d*)"
 writer = PyPDF2.PdfWriter()
 
-numDiavositas =  re.search(patron_numDiavositiva, pdf_reader.pages[-1].extract_text()[-7:]).group(1)
+numDiavositas =  re.search(patron_numDiavositiva, pdf_reader.pages[-1].extract_text()).group(1)
 
 def numeroPagina(pagina:str):
     return re.search(patron_numDiavositiva, pagina.extract_text()).group(1)
