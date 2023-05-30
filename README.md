@@ -1,8 +1,7 @@
 
 # pdf_estadistica
 
-Elimina las diavositivas innecesarias de los pdf de estadistica, Unal Medellin
-
+Elimina las diapositivas innecesarias de los pdf de estadística, Una Medellín
   
 
 <image src="imagenes\tutorial.png">
@@ -10,18 +9,17 @@ Elimina las diavositivas innecesarias de los pdf de estadistica, Unal Medellin
 
   
 
-Cambie la parte señalada por la direcion donde esta el pdf de su interes.
+Remplace el pdf actual por el que usted desee y renómbrelo como **"diavositiva.pdf"**
 
-Una ves ejecute el codigo le aparecera un nuevo archivo llamada "Nueva diavositiva.pdf"
-
-  
 
 <image src="imagenes\nuevoPdf.png">
 
 
+Una vez ejecute el código le aparecerá un nuevo archivo llamada "Nueva diavositiva.pdf"
+
 =========
 
-Nota: Si el código no funciona posiblemente necesite instalar el modulo **PyPDF2**
+Nota: Si el código no funciona posiblemente necesite instalar el módulo **PyPDF2**
 
     pip install PyPDF2
 

@@ -3,7 +3,7 @@ import re
 
 
 #* Escribe aqui la direccion del pdf
-pdf_reader = PyPDF2.PdfReader('pdf_estadistica\Clase 15.pdf')
+pdf_reader = PyPDF2.PdfReader('pdf_estadistica\diavositiva.pdf')
 #----------------------------------------------------
 
 patron_numDiavositiva = "(\d*)\s/\s(\d*)"
