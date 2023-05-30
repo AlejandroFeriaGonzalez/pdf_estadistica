@@ -1,7 +1,7 @@
 
 # pdf_estadistica
 
-Elimina las diapositivas innecesarias de los pdf de estadística, Una Medellín
+Elimina las diapositivas innecesarias de los pdf de estadística, Unal Medellín
   
 
 <image src="imagenes\tutorial.png">
