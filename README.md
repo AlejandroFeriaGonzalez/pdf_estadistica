@@ -3,7 +3,7 @@ Elimina las diapositivas innecesarias de los pdf de estadística, Unal Medellín
 
 # Como usar
 
-En la carpeta pdf_estadistica\entrada, guarda los pdfs que deseas modificar.
+En la carpeta **pdf_estadistica\entrada**, guarda los pdfs que deseas modificar.
 
 <img  src="imgs/img1.png">
 
