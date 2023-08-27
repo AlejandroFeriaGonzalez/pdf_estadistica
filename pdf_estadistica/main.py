@@ -13,6 +13,8 @@ def numeroPagina(pagina):
 
 
 for d in ruta_entrada.iterdir():
+    if (".gitkeep" in d.name): continue
+
     pdf_reader = PyPDF2.PdfReader(d)
     writer = PyPDF2.PdfWriter()
 
