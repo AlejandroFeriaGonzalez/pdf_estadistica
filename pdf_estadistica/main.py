@@ -13,22 +13,24 @@ def numeroPagina(pagina):
 
 
 for d in ruta_entrada.iterdir():
-    if (".gitkeep" in d.name): continue
+    if ".gitkeep" in d.name:
+        continue
 
     pdf_reader = PyPDF2.PdfReader(d)
     writer = PyPDF2.PdfWriter()
 
-    numDiavositas = re.search(patron_numDiavositiva,
-                              pdf_reader.pages[-1].extract_text()).group(1)
+    numDiavositas = re.search(
+        patron_numDiavositiva, pdf_reader.pages[-1].extract_text()
+    ).group(1)
 
     for i, page in enumerate(pdf_reader.pages):
         numPag = numeroPagina(page)
 
         # Si el indice de la siguiente pagina es diferente al actual, entonces es una diavositiva final
-        if (int(numPag) == int(numDiavositas)):
+        if int(numPag) == int(numDiavositas):
             break
 
-        if (numeroPagina(pdf_reader.pages[i+1]) != numPag):
+        if numeroPagina(pdf_reader.pages[i + 1]) != numPag:
             writer.add_page(page)
 
     # añadir ultima pagina
